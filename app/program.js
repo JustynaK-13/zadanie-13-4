@@ -1,5 +1,6 @@
-var OSinfo = require('../modules/OSInfo');
-OSInfo.print();
+var OSinfo = require('../modules/OSinfo');
+OSinfo.print();
+
 
 process.stdin.setEncoding('utf-8');
 process.stdin.on('readable', function() {
@@ -15,6 +16,7 @@ process.stdin.on('readable', function() {
                 break;
             case '/getOSinfo':
                 getOSinfo();
+                break;
                 
             break;
             default:
