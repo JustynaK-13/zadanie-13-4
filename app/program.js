@@ -1,4 +1,4 @@
-var os = require('os');
+var OSinfo = require('../modules/OSInfo');
 
 function getOSinfo() {
     var type = os.type();
